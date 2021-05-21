@@ -1,0 +1,123 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "项目概述",
+        "href": "/docs/about"
+      },
+      {
+        "type": "category",
+        "label": "代码相关",
+        "items": [
+          {
+            "type": "link",
+            "label": "硬件",
+            "href": "/docs/code/bluetooth"
+          },
+          {
+            "type": "link",
+            "label": "数据流以及持久化",
+            "href": "/docs/code/data"
+          },
+          {
+            "type": "link",
+            "label": "多语言配置",
+            "href": "/docs/code/language"
+          },
+          {
+            "type": "link",
+            "label": "导航",
+            "href": "/docs/code/navigation"
+          },
+          {
+            "type": "link",
+            "label": "网络请求",
+            "href": "/docs/code/network"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "link",
+        "label": "Tutorial Intro",
+        "href": "/docs/intro"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Basics",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create a Page",
+            "href": "/docs/tutorial-basics/create-a-page"
+          },
+          {
+            "type": "link",
+            "label": "Create a Document",
+            "href": "/docs/tutorial-basics/create-a-document"
+          },
+          {
+            "type": "link",
+            "label": "Create a Blog Post",
+            "href": "/docs/tutorial-basics/create-a-blog-post"
+          },
+          {
+            "type": "link",
+            "label": "Markdown Features",
+            "href": "/docs/tutorial-basics/markdown-features"
+          },
+          {
+            "type": "link",
+            "label": "Deploy your site",
+            "href": "/docs/tutorial-basics/deploy-your-site"
+          },
+          {
+            "type": "link",
+            "label": "Congratulations!",
+            "href": "/docs/tutorial-basics/congratulations"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/docs/tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/docs/tutorial-extras/translate-your-site"
+          }
+        ],
+        "collapsed": true
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/about": "tutorialSidebar",
+    "/docs/code/bluetooth": "tutorialSidebar",
+    "/docs/code/data": "tutorialSidebar",
+    "/docs/code/language": "tutorialSidebar",
+    "/docs/code/navigation": "tutorialSidebar",
+    "/docs/code/network": "tutorialSidebar",
+    "/docs/intro": "tutorialSidebar",
+    "/docs/tutorial-basics/congratulations": "tutorialSidebar",
+    "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
+    "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
+    "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
+    "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
+    "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
+    "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
+    "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "code/network",
+  "id": "code/network",
+  "isDocsHomePage": false,
+  "title": "网络请求",
+  "description": "框架",
+  "source": "@site/docs/code/network.md",
+  "sourceDirName": "code",
+  "slug": "/code/network",
+  "permalink": "/docs/code/network",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/code/network.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "导航",
+    "permalink": "/docs/code/navigation"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  }
+}

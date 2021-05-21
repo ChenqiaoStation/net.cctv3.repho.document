@@ -1,0 +1,23 @@
+{
+  "unversionedId": "code/language",
+  "id": "code/language",
+  "isDocsHomePage": false,
+  "title": "多语言配置",
+  "description": "流程",
+  "source": "@site/docs/code/language.md",
+  "sourceDirName": "code",
+  "slug": "/code/language",
+  "permalink": "/docs/code/language",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/code/language.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "数据流以及持久化",
+    "permalink": "/docs/code/data"
+  },
+  "next": {
+    "title": "导航",
+    "permalink": "/docs/code/navigation"
+  }
+}

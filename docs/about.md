@@ -9,17 +9,17 @@ sidebar_position: 1
 `RenphoECG→0.59.10` 和 `RenphoECG→0.63.4`
 最开始的时候项目使用的 `React Natiive` 的版本是 `0.59.10`。但是后来 `iOS` 因为 `UIWebView` 没法上架，所以升级到 `0.63.4`。
 
-## Git branch
+## 分支
 
 目前总共有两个分支。
 
-### master
+- `master`
 
-所有的开发基本上都是在这个分支上面做的开发。
+  所有的开发基本上都是在这个分支上面做的开发。
 
-### Testing→SingleTest+MultiTest
+  - `Testing→SingleTest+MultiTest` 当时测量模式一二三都在一个页面里面，处理起来逻辑比较麻烦，所以把公用的部分简单的服用了一下，拆分了两个业务，单步测量以及多步测量。
 
-当时测量模式一二三都在一个页面里面，处理起来逻辑比较麻烦，所以把公用的部分简单的服用了一下，拆分了两个业务，单步测量以及多步测量。
+  - `TestingBattery4iOS` 针对 `iOS` 电池电量显示异常所做的修改。
 
 ## Class or Hooks ?
 
@@ -76,6 +76,8 @@ sidebar_position: 1
 
 `Android`: 切换到项目的根目录。
 
+详细配置过程可以参考博客 http://www.cctv3.net/archives/ReactNativeBuildAPK.html 。
+
 ```shell
 cd android && ./gradlew assembleRelease
 ```
@@ -88,6 +90,7 @@ cd android && ./gradlew assembleRelease
 npm start --cache-clean
 ```
 
-##  其他问题
+## 其他问题
+
 关于项目开发中可能遇见的其他问题，基本上都在我的博客里面写过总结了，可以访问我的博客 http://www.cctv3.net 。
 ![](../static/img/myBlogIssues.jpg)

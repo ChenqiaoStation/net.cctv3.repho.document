@@ -1,0 +1,22 @@
+{
+  "unversionedId": "about",
+  "id": "about",
+  "isDocsHomePage": false,
+  "title": "项目概述",
+  "description": "React Native 版本",
+  "source": "@site/docs/about.md",
+  "sourceDirName": ".",
+  "slug": "/about",
+  "permalink": "/docs/about",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/about.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "硬件",
+    "permalink": "/docs/code/bluetooth"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "code/bluetooth",
+  "id": "code/bluetooth",
+  "isDocsHomePage": false,
+  "title": "硬件",
+  "description": "流程",
+  "source": "@site/docs/code/bluetooth.md",
+  "sourceDirName": "code",
+  "slug": "/code/bluetooth",
+  "permalink": "/docs/code/bluetooth",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/code/bluetooth.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "项目概述",
+    "permalink": "/docs/about"
+  },
+  "next": {
+    "title": "数据流以及持久化",
+    "permalink": "/docs/code/data"
+  }
+}

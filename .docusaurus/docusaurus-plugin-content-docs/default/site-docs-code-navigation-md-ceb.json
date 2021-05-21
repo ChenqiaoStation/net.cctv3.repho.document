@@ -1,0 +1,23 @@
+{
+  "unversionedId": "code/navigation",
+  "id": "code/navigation",
+  "isDocsHomePage": false,
+  "title": "导航",
+  "description": "版本",
+  "source": "@site/docs/code/navigation.md",
+  "sourceDirName": "code",
+  "slug": "/code/navigation",
+  "permalink": "/docs/code/navigation",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/code/navigation.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "多语言配置",
+    "permalink": "/docs/code/language"
+  },
+  "next": {
+    "title": "网络请求",
+    "permalink": "/docs/code/network"
+  }
+}
