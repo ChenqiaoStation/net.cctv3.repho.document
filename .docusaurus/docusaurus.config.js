@@ -66,7 +66,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/mac/RenphoDocument/sidebars.js",
+          "sidebarPath": "/Users/renpho/RenphoDocument/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
         "blog": {
@@ -74,7 +74,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/mac/RenphoDocument/src/css/custom.css"
+          "customCss": "/Users/renpho/RenphoDocument/src/css/custom.css"
         }
       }
     ]

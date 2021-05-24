@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/mac/RenphoDocument/sidebars.js",
-          "contentPath": "/Users/mac/RenphoDocument/docs",
-          "contentPathLocalized": "/Users/mac/RenphoDocument/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/renpho/RenphoDocument/sidebars.js",
+          "contentPath": "/Users/renpho/RenphoDocument/docs",
+          "contentPathLocalized": "/Users/renpho/RenphoDocument/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "about",
           "sidebars": {
             "tutorialSidebar": [

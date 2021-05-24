@@ -1,33 +1,25 @@
-# Website
+# RenphoDocument
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## How to run
 
-## Installation
-
-```console
-yarn install
+```shell
+cd RenphoDocument && npm start
 ```
 
-## Local Development
+```shell
+➜  RenphoDocument git:(master) ✗ npm start --cache-clean
 
-```console
-yarn start
+> document@0.0.0 start /Users/renpho/RenphoDocument
+> docusaurus start
+
+Starting the development server...
+Docusaurus website is running at: http://localhost:3000/
+
+✔ Client
+  Compiled successfully in 1.13s
+
+ℹ ｢wds｣: Project is running at http://localhost:3000/
+ℹ ｢wds｣: webpack output is served from /
+ℹ ｢wds｣: Content not from webpack is served from /Users/renpho/RenphoDocument
+ℹ ｢wds｣: 404s will fallback to /index.html
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

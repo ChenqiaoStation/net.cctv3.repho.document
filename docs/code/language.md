@@ -4,32 +4,36 @@
 
 ### 获取系统语言
 
-``` javascript title="Hello.js"
+这里面有可能系统返回的中文的语言设置不一样，简体中文和繁体中文可能是 `zh-XXX`，所以最好先判断包含关系，然后匹配数组。
+
+```javascript title="Main.js"
 useEffect(() => {
-  appStater = AppState.addEventListener("change", (thisState) => {
-    console.log("App state", thisState);
-    NativeModules.SystemModule.askConfig((s) => {
-      let result = JSON.parse(s);
-      x.DEVICE.store.setIsTurnOn(result.isBluetoothTurnOn == 1);
-      if (props.language == result.language) {
-        // 没有设置语言
-      } else {
-        let ls = ["zh", "en", "de", "it", "fr", "es", "ja"];
-        props.updateSettingLanguage(
-          ls.some((it) => it == result.language) ? result.language : "en"
-        );
-      }
-      x.DEVICE.store.setCountry(result.country);
-    });
+  const askConfigs = () => {
+  NativeModules.SystemModule.askConfig(s => {
+    let result = JSON.parse(s);
+    x.DEVICE.store.setIsTurnOn(result.isBluetoothTurnOn == 1);
+    if (props.language == result.language) {
+      // 没有设置语言
+    } else {
+      let ls = ['zh', 'en', 'de', 'it', 'fr', 'es', 'ja'];
+      props.updateSettingLanguage(
+        result.language.indexOf('zh') >= 0
+          ? 'zh'
+          : ls.some(it => it == result.language)
+          ? result.language
+          : 'en',
+      );
+    }
+    x.DEVICE.store.setCountry(result.country);
   });
-}, []);
+};
 ```
 
 ### 配置文件
 
 `I18N.js` 里面配置了很多国家的语言，可以通过 `Java` 代码把 `Excel` 表转换成 `JSON`。
 
-``` cpp title="Main.java"
+```cpp title="Main.java"
 private void splitTranslateText() {
     try {
         String readLines = FileUtils.readFileToString(new File("ECGTranslater.txt"));
